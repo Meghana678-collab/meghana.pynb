@@ -1,0 +1,6 @@
+length=int(input('enter the value '))
+breadth=int(input('enter the value 7'))
+a=length*breadth
+print(a)
+perimeter=2*length*breadth
+print(perimeter)
