@@ -1,0 +1,5 @@
+principle=int(input('enter the value : '))
+time=int(input('enter the value : '))
+rate=int(input('enter the value : '))
+simpleintrest=principle*time*rate/100
+print(simpleintrest)
