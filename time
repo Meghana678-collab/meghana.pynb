@@ -1,0 +1,3 @@
+minutes=int(input('enter the time in mintues'))
+seconds=minutes*24
+print(seconds)
