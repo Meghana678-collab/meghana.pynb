@@ -1,0 +1,6 @@
+a = int(input("Enter the value: "))
+
+if 50 <= a <= 100:
+    print("It is inclusive")
+else:
+    print("It is exclusive")
