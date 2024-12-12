@@ -1,0 +1,4 @@
+def meg(**kwargs):
+  for key,value in kwargs.items():
+    print(key,value)
+meg(name="meghana", age=18 , city="chickmagalur")
