@@ -1,0 +1,3 @@
+def meg(name, message):
+  print(name + ","+message+"!")
+meg(name="meghu", message="hello")
