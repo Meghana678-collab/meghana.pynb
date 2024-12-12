@@ -1,0 +1,3 @@
+def greet(name="user"):
+  print("hello,"+ name + '!')
+greet("meghana")
