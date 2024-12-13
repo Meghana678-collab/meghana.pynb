@@ -1,0 +1,11 @@
+class Car:
+    def __init__(self, brand, model):  
+        self.brand = brand
+        self.model = model 
+
+    def display_info(self):
+        print(f"Brand: {self.brand}, Model: {self.model}")  
+
+car = Car("Toyota", 2005)
+car.display_info()
+ 
