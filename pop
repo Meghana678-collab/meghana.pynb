@@ -1,0 +1,3 @@
+numbers=[4.5,"gowrav","surya","meghu"]
+numbers.pop(2)
+numbers
