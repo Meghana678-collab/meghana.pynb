@@ -1,0 +1,3 @@
+tuple=[(1,'apple'),(2,'banana'),(3,'cherry')]
+sorted_tuple=sorted(tuple,key=lambda x:x[1])
+sorted_tuple
