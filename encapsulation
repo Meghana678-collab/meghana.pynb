@@ -1,0 +1,33 @@
+class Person:
+    def __init__(self, name, age):
+        self.name = name            # Public attribute
+        self._age = age             # Protected attribute
+        self.__salary = 50000       # Private attribute
+    
+    # Getter for private attribute
+    def get_salary(self):
+        return self.__salary
+    
+    # Setter for private attribute
+    def set_salary(self, new_salary):
+        if new_salary > 0:
+            self.__salary = new_salary
+        else:
+            print("Salary must be positive.")
+    
+    def display_info(self):
+        # Access the protected attribute using self._age
+        print(f"Name: {self.name}, Age: {self._age}, Salary: {self.__salary}") 
+        # Or, you could create a getter for _age and use it here.
+
+
+person = Person("Alice", 30)
+
+print(person.name)
+
+print(person._age)
+
+print(person.get_salary())
+
+person.set_salary(60000)
+person.display_info()
