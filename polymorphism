@@ -1,0 +1,10 @@
+class bird:
+  def speak(self):
+    print("i chirp")
+
+class Parrot(bird):
+  def speak(self):
+    print("i mimic")
+
+parrot=Parrot()
+parrot.speak()
