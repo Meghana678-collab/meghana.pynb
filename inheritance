@@ -1,0 +1,21 @@
+class ParentClass:
+    def __init__(self, name):
+        self.name = name
+
+    def name1(self):
+        print(f"Hello, my name is {self.name}")
+
+
+class ChildClass(ParentClass):
+    def __init__(self, name, age):
+        super().__init__(name)  # Call the parent's constructor
+        self.age = age
+
+    def age1(self):
+        print(f"I am {self.age} years old")
+
+
+# Usage
+child = ChildClass("Alice", 12)
+child.name1()  # Inherited method
+child.age1()   # Child class method
